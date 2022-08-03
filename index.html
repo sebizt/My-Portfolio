@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>신송희 포트폴리오</title>
+	<!-- <link rel="stylesheet" type="text/css" href="styles.css" /> -->
+	<style>
+		html,
+		body {
+			margin: 0;
+			padding: 0;
+			height: 100%;
+		}
+
+		.header,
+		.footer {
+			width: 100%;
+			height: 10%;
+			clear: both;
+		}
+
+		.section,
+		.aside {
+			width: 80%;
+			float: left;
+		}
+
+		.nav {
+			width: 20%;
+			height: 80%;
+			float: left;
+		}
+
+		.section {
+			height: 72%;
+		}
+
+		.aside {
+			height: 8%;
+		}
+
+		.header {
+			text-align: center;
+			background: darkseagreen;
+		}
+
+		nav {
+			background: lightsteelblue;
+		}
+
+		section {
+			background: ivory;
+		}
+
+		aside {
+			text-align: center;
+			background: ivory;
+		}
+
+		footer {
+			clear: both;
+			background: darkseagreen;
+		}
+
+		h1 {
+			color: rgb(255, 245, 111);
+			margin-top: -15px;
+			text-shadow: 5px 5px rgb(147, 168, 52);
+			text-align: center;
+		}
+
+		h4 {
+			text-align: right;
+			margin-top: -1px;
+			margin-bottom: -1px;
+		}
+
+		.nav img {
+			display: block;
+			margin: auto;
+			margin-top: 20px;
+			width: 200px;
+			height: 250px;
+		}
+
+		.image {
+			display: block;
+			margin: auto;
+			width: 225px;
+			height: 225px;
+			cursor: help;
+		}
+
+		.imagemap {
+			display: block;
+			margin: auto;
+			width: 265px;
+			height: 460px;
+		}
+
+		.nav ul {
+			color: floralwhite;
+			line-height: 2.5em;
+		}
+
+		.nav ul strong {
+			color: rgb(166, 147, 235);
+		}
+
+		.table {
+			margin: auto;
+			margin-top: 12px;
+			width: 1200px;
+			border: 5px dashed rgb(102, 143, 78);
+		}
+
+		.table th {
+			background-color: rgb(179, 233, 226);
+		}
+
+		.table td:hover {
+			background: rgb(232, 246, 255);
+		}
+	</style>
+</head>
+
+<body>
+	<header class="header">
+		<h4><a href="Join/join.html">Join</a></h4>
+		<h1>SHINSONGHEE PORTFOLIO</h1>
+
+	</header>
+	<nav class="nav">
+		<audio src="music.mp3" controls autoplay loop>브라우저가 audio 태그를 지원하지 않습니다.</audio>
+		<img id=picture src="photo.png">
+		<ul>
+			<li><strong>I AM </strong>신송희
+			<li><strong>KEYWORDS </strong>세빛, 송송이
+			<li><strong>LIKES </strong>책, 게임, 수다
+			<li><strong>DISLIKES </strong>새우, 벌레, 추위
+			<li><strong>WISHLIST </strong>해외봉사
+		</ul>
+	</nav>
+
+	<section class="section">
+		<table class="table">
+			<thead>
+				<tr>
+					<th>성장</th>
+					<th>취미</th>
+					<th>위치</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>
+						<a href="/1/">
+							<img class="image" src="kid.jpg" alt="성장과정">
+						</a>
+					</td>
+					<td>
+						<a href="/2/">
+							<img class="image" src="volunteer1.jpg" alt="취미">
+						</a>
+					</td>
+					<td ROWSPAN="3">
+						<img class="imagemap" src="map.png" usemap="#image-map">
+						<map name="image-map">
+							<area target="_blank" alt="공주대학교" title="공주대학교" href="https://computer.kongju.ac.kr/"
+								coords="96,175,21" shape="circle">
+							<area target="_blank" alt="우리집" title="우리집" href="https://www.gunsan.go.kr/"
+								coords="73,254,22" shape="circle"></map>
+					</td>
+				</tr>
+				<tr>
+					<th>목표</th>
+					<th>성과</th>
+				</tr>
+				<tr>
+					<td>
+						<a href="/3/">
+							<img class="image" src="teach1.jpg" alt="목표">
+						</a>
+					</td>
+					<td>
+						<a href="/4/">
+							<img class="image" src="license.jpg" alt="성과" ;>
+						</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+	<aside class="aside">
+		<hr>
+		<a href="https://www.instagram.com/sebizt/" target="_blank">INSTAGRAM</a>
+		<a href="https://www.facebook.com/profile.php?id=100024565131300" target="_blank">FACEBOOK</a>
+		<a href="https://blog.naver.com/thdgml_0711" target="_blank">NAVER BLOG</a>
+	</aside>
+	<footer class="footer"></footer>
+</body>
+
+</html>

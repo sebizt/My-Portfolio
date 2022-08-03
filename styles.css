@@ -1,0 +1,104 @@
+/*Structure*/
+
+html, body	{
+	margin:0; 
+	padding:0; 		
+	height:100%;
+}
+.header, .footer {
+	width:100%; 
+	height:10%; 
+	clear:both; 
+}
+
+.section, .aside {
+	width:80%; 
+	float:left;
+}
+.nav {
+	width:20%;
+	height:80%; 
+	float:left; 
+}
+.section {
+	height:72%;
+}
+.aside {
+	height:8%;
+}
+
+/* Color, typography and basic layout*/
+
+.header {
+	text-align:center;
+	background:darkseagreen;
+	}
+nav	{
+	background:lightsteelblue;
+}
+section {
+	background:ivory;
+}
+aside { 
+	text-align:center; 
+	background:ivory;
+}
+footer {
+	clear:both; 
+	background:darkseagreen;
+}
+		
+h1{
+	color:rgb(255, 245, 111); 
+	margin-top:-15px;
+	text-shadow:5px 5px rgb(147, 168, 52);
+	text-align:center;
+}
+
+h4{
+	text-align:right; 
+	margin-top:-1px; 
+	margin-bottom:-1px;
+}
+
+.nav img{
+	display:block;
+	margin:auto; 
+	margin-top: 20px; 
+	width:200px; 
+	height:250px;
+}
+.image {
+	display:block;
+	margin:auto; 
+	width:225px;
+	height:225px;
+	cursor:help;
+}
+.imagemap{
+	display:block;
+	margin:auto; 
+	width:265px; 
+	height:460px;
+}
+
+.nav ul {
+	color:floralwhite; 
+	line-height:2.5em; 
+}
+.nav ul strong {
+	color:rgb(166, 147, 235);
+}
+.table {
+	margin:auto; 
+	margin-top: 12px;
+	width:1200px;
+	border:5px dashed rgb(102, 143, 78);
+}
+.table th{
+	background-color: rgb(179, 233, 226);
+}
+
+.table td:hover {
+	background:rgb(232, 246, 255);
+}
